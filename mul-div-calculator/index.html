@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        font-size: 20px;
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px;
+        cursor: pointer;
+        margin: 20px;
+
+    }
+    
+    .first{
+        gap: 15px;
+        position: absolute;
+        
+    }
+    .second{
+        position: relative;
+        width: 300px;
+        height: 50px;
+        background-color: rgb(143, 223, 223);
+        top: 60px;
+        border-radius: 6px;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+
+</style>
+<body>
+    <div class="first">
+
+        <button id="mul">Multiply</button>
+        <button id="div">Divide</button>
+    </div>
+    <div class="second" id="second"></div>
+    <script src="index.js"></script>
+</body>
+</html>
